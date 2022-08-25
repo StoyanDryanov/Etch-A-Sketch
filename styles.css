@@ -42,24 +42,21 @@ button:hover {
     width: auto;
     background-color: #202124;
     display: flex;
-    flex: 1;
     align-items: center;
     justify-content: center;
-    gap: 32px;
+    gap: 4rem;
+    padding-right: 250px;
 }
 
 .main .grid {
     height: 500px;
     width: 500px;
-    position: absolute;
 }
 
 .btns {
-    position: absolute;
     display: flex;
     flex-direction: column;
     gap: 16px;
-    left: 150px;
 }
 
 .footer {
