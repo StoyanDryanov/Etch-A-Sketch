@@ -34,6 +34,7 @@ resizeBtn.addEventListener("click", () => {
 });
 
 blackBtn.addEventListener("click", () => {
+  grayness = 100;
   const items = document.querySelectorAll(".item");
   items.forEach((item) =>
     item.addEventListener("mouseover", (e) => {
@@ -56,7 +57,11 @@ rainbowBtn.addEventListener("click", () => {
   );
 });
 
-resetBtn.addEventListener('click', () => {
-    const items = document.querySelectorAll(".item");
-    items.forEach(item => item.setAttribute('style', 'background-color: aliceblue;'));
-})
+resetBtn.addEventListener("click", () => {
+  const items = document.querySelectorAll(".item");
+  items.forEach((item) =>
+    item.setAttribute("style", "background-color: aliceblue;")
+  );
+});
+
+
