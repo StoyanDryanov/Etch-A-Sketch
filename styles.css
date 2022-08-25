@@ -39,7 +39,6 @@ button:hover {
 .main {
     position: relative;
     height: 77vh;
-    width: auto;
     background-color: #202124;
     display: flex;
     align-items: center;
@@ -55,6 +54,7 @@ button:hover {
 
 .btns {
     display: flex;
+    padding-right: 150px;
     flex-direction: column;
     gap: 16px;
 }
